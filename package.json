@@ -1,6 +1,6 @@
 {
     "name": "path-compatible",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "hbq-path-compatible",
     "main": "build/index.js",
     "scripts": {
