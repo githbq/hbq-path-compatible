@@ -17,4 +17,5 @@ Object.keys(pathTool).forEach(attribute => {
   }
 })
 
+module.exports = compatiblePathTool
 export default compatiblePathTool
