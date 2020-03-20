@@ -2,12 +2,12 @@ import * as pathTool from 'path'
 
 const compatiblePathTool = {}
 
-Object.keys(pathTool).forEach(methodName => {
-  const property = pathTool[methodName]
+Object.keys(pathTool).forEach(attribute => {
+  const property = pathTool[attribute]
   if (typeof property !== 'function') {
-    compatiblePathTool[methodName] = property
+    compatiblePathTool[attribute] = property
   } else {
-    compatiblePathTool[methodName] = function (...args) {
+    compatiblePathTool[attribute] = function (...args) {
       let result = property(...args)
       if (typeof result === 'string') {
         result = result.replace(/\\/g, '/')
