@@ -1,18 +1,18 @@
-> 项目描述
+> hbq-path-compatible，用于替代原始path模块，兼容win10、linux、macos 等系统
 
 ![my love](./logo.png) 
 
 ## 功能介绍
-1. 简介1 
-2. 简介2   
+1. 所有路径的处理及返回统一为 `/`
+2. 干掉windows下路径返回为 `\\` 所造成的BUG
 
 ## 安装
 ```
-yarn
+npm i path-compatible
 ```
 
-## 测试   
+## 使用 
 ```
-npm run test    
+import pathCompatible from 'path-compatible' 
 ```
  

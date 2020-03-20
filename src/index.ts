@@ -1,4 +1,6 @@
-/**
- * entry
- */
-console.log('hello typescript') 
+import * as pathTool from 'path'
+
+
+
+
+export default pathTool
