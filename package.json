@@ -1,7 +1,7 @@
 {
     "name": "path-compatible",
     "version": "1.0.4",
-    "description": "hbq-path-compatible",
+    "description": "path-compatible",
     "main": "build/index.js",
     "publishConfig": {
         "registry": "https://registry.npmjs.org"
