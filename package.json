@@ -1,6 +1,6 @@
 {
     "name": "path-compatible",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "path-compatible",
     "main": "build/index.js",
     "publishConfig": {
