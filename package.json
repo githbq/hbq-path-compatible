@@ -3,6 +3,9 @@
     "version": "1.0.4",
     "description": "hbq-path-compatible",
     "main": "build/index.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
     "scripts": {
         "start:build": "npm run tsc && node build",
         "start": "node run",
